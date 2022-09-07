@@ -6,9 +6,9 @@
   --grey-soft: #e5e5e5;
   --white: #ffffff;
   --darkgrey: #2f303a;
+  --notwhite: #F5F4FA;
 }
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--grey);
   font-size: 14px;
@@ -57,7 +57,7 @@ body {
   line-height: 1.142;
   color: var(--blue);
   letter-spacing: 0.02em;
-  hover: ;
+
 }
 .mail-link:hover {
   color: #800080;
@@ -81,3 +81,85 @@ body {
 .phone-link:focus {
   color: #800080;
 }
+.main-section {
+  background-color: var(--darkgrey);
+  width: 1600px;
+height: 600px;
+}
+.main-section-text {
+  font-style: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.main-section-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  width: 200px;
+  height: 50px;
+  border-style none;
+  cursor:  pointer;
+}
+.lorem-ipsum-list {
+  list-style: none;
+  justify-content: center;
+}
+h5 {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--black)
+}
+.lorem-ipsum-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--grey)
+}
+.what-we-do-list {
+  list-style: none;
+}
+.what-we-do-header {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--black)
+}
+.our-team {gap: 30px;
+  padding: 200px 0;
+  background-color: var(--notwhite)
+}
+.our-team-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+color: var(--black);
+}
+.our-team-list {
+  list-style: none;
+  width: 1600px;
+  height: 648px;
+  }
