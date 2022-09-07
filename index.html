@@ -1,31 +1,18 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <link rel="stylesheet" href="index.css"/>
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="praca domowa GoIT" />
     <title>Studio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="/Logo">WebStudio</a>
-
-        <ul>
-          <li><a href="Agencja">Agencja</a></li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li><a href="Kontakt">Kontakt</a></li>
-        </ul>
-
+    
+    <nav>
+      <a href="/Logo">WebStudio</a>
+      <ul>
+        <li><a href="Agencja">Agencja</a></li>
+        <li><a href="Portfolio">Portfolio</a></li>
+        <li><a href="Kontakt">Kontakt</a></li>
+      </ul>
         <ul>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+48111111111">+48111111111</a></li>
@@ -33,34 +20,36 @@
       </nav>
     </header>
     <main>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button>Zamów usługe</button>
+      <div class="main-text">
+        <h1>EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
+        <button class="main-button">Zamów usługe</button>
+      </div>
       <div>
         <ul>
           <li>
             <h5>LOREM IPSUM</h5>
-            <p>
+            <p class="paragraph-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
             <h5>LOREM IPSUM</h5>
-            <p>
+            <p class="paragraph-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
             <h5>LOREM IPSUM</h5>
-            <p>
+            <p class="paragraph-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
             <h5>LOREM IPSUM</h5>
-            <p>
+            <p class="paragraph-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -68,6 +57,7 @@
         </ul>
       </div>
       <section>
+        <div class="what-we-do">
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
@@ -95,17 +85,18 @@
             />
           </li>
         </ul>
-
+      </div>
+<div class="our-team">
         <h2>Nasz zespół</h2>
         <ul>
-          <li>
+          <li class="product-designer">
             <figure>
-              <img
+              <img class="photo-one"
                 src="https://github.com/karolinakiljanska/goit-markup-hw-01/blob/main/images/nz1.jpg?raw=true"
                 alt="John Doe"
                 width="270"
                 height="260"
-              />
+                              />
               <figcaption>
                 <p>John Doe</p>
                 <p>Product Designer</p>
@@ -113,9 +104,9 @@
             </figure>
           </li>
 
-          <li>
+          <li class="frontend-developer">
             <figure>
-              <img
+              <img 
                 src="https://github.com/karolinakiljanska/goit-markup-hw-01/blob/main/images/nz2.jpg?raw=true"
                 alt="John Doe"
                 width="270"
@@ -157,6 +148,7 @@
             </figure>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer>
