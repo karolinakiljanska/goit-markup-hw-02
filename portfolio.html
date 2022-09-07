@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <link rel="stylesheet" href="index.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="praca domowa GoIT" />
     <title>Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="/Logo">WebStudio</a>
+        <a href="/Logo" class="logo">
+          <span class="blue-web">Web</span>Studio</a
+        >
 
-        <ul>
-          <li><a href="Agencja">Agencja</a></li>
-          <li><a href="Portfolio">Portfolio</a></li>
-          <li><a href="Kontakt">Kontakt</a></li>
+        <ul class="portfolio-nav-list">
+          <li><a href="Agencja" class="nav-link-black">Agencja</a></li>
+          <li><a href="Portfolio" class="nav-link-blue">Portfolio</a></li>
+          <li><a href="Kontakt" class="nav-link-black">Kontakt</a></li>
         </ul>
 
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48111111111</a></li>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-link-portfolio"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="phone-link">+48111111111</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div>
-        <button>Wszystkie</button>
-        <button>Strony</button>
-        <button>Aplikacje</button>
-        <button>Dizajn</button>
-        <button>Marketing</button>
+      <div class="button-list">
+        <button type="button" class="button-portfolio">Wszystkie</button>
+        <button type="button" class="button-portfolio">Strony</button>
+        <button type="button" class="button-portfolio">Aplikacje</button>
+        <button type="button" class="button-portfolio">Dizajn</button>
+        <button type="button" class="button-portfolio">Marketing</button>
       </div>
-      <ul>
-        <li>
+      <ul class="porfolio-main-list">
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio1.jpg?raw=true"
@@ -53,7 +62,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio2.jpg?raw=true"
@@ -67,7 +76,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio3.jpg?raw=true"
@@ -81,7 +90,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio4.jpg?raw=true"
@@ -95,7 +104,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio5.jpg?raw=true"
@@ -109,7 +118,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio6.jpg?raw=true"
@@ -123,7 +132,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio7.jpg?raw=true"
@@ -137,7 +146,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio8.jpg?raw=true"
@@ -151,7 +160,7 @@
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-main-list-backgroud">
           <figure>
             <img
               src="https://github.com/karolinakiljanska/goit-markup-hw-02/blob/main/images/portfolio9.jpg?raw=true"
@@ -168,12 +177,12 @@
       </ul>
     </main>
     <footer>
-      <a href="/Logo">WebStudio</a>
+      <a href="/Logo" class="logo"><span class="blue-web">Web</span>Studio</a>
       <address>
         <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li>info@example.com</li>
-          <li>+48 111 111 111</li>
+          <li class="adress-text">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="mail-link">info@example.com</li>
+          <li class="phone-link">+48 111 111 111</li>
         </ul>
       </address>
     </footer>
