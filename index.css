@@ -163,3 +163,37 @@ color: var(--black);
   width: 1600px;
   height: 648px;
   }
+  .name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.197;
+    letter-spacing: 0.03em;
+  color: var(--black);
+}
+.position {font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.197;
+  letter-spacing: 0.03em;
+}
+.our-team-background {
+width: 270px;
+height: 368px;
+background-color: var(--white);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+border-radius: 0px 0px 4px 4px;
+}
+footer {
+  width: 1600px;
+  height: 252px;
+  background-color: var(--darkgrey);
+}
+.adress-text
+{font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;  
+  letter-spacing: 0.03em;
+  color: var(--white);}
+  
