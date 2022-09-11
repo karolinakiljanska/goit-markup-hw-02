@@ -236,7 +236,8 @@ footer {
   cursor: pointer;
 }
 .button-portfolio:hover {
-  color: #800080;
+  background-color: var(--blue);
+  color: var(--white)
 }
 
 .porfolio-main-list {
