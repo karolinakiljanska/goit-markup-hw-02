@@ -13,6 +13,23 @@ body {
   color: var(--grey);
   font-size: 14px;
 }
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 93px;
+  padding: 24px 0 25px 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   text-decoration: none;
   font-weight: 700;
@@ -27,6 +44,7 @@ body {
 }
 .nav-list {
   list-style: none;
+  display: flex;
 }
 .nav-link-blue {
   text-decoration: none;
@@ -95,6 +113,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
+  padding: 200 452 280;
 }
 .main-section-button {
   font-style: normal;
